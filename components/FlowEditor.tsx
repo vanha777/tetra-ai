@@ -24,8 +24,10 @@ const initialNodes: Node[] = [
     style: {
       width: 300,
       height: 100,
-      backgroundColor: '#f0f0f0',
-      border: '2px solid #666',
+      backgroundColor: '#ffffff',
+      border: '2px solid #2196f3',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
   {
@@ -36,8 +38,10 @@ const initialNodes: Node[] = [
     style: {
       width: 150,
       height: 60,
-      backgroundColor: '#fff3e0',
-      border: '2px solid #ff9800',
+      backgroundColor: '#fff8e1',
+      border: '2px solid #ffc107',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
   {
@@ -50,6 +54,8 @@ const initialNodes: Node[] = [
       height: 60,
       backgroundColor: '#e8f5e9',
       border: '2px solid #4caf50',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
   {
@@ -60,8 +66,10 @@ const initialNodes: Node[] = [
     style: {
       width: 120,
       height: 60,
-      backgroundColor: '#e6f3ff',
-      border: '1px solid #1a73e8',
+      backgroundColor: '#e3f2fd',
+      border: '2px solid #2196f3',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
   {
@@ -72,8 +80,10 @@ const initialNodes: Node[] = [
     style: {
       width: 120,
       height: 60,
-      backgroundColor: '#e6f3ff',
-      border: '1px solid #1a73e8',
+      backgroundColor: '#e3f2fd',
+      border: '2px solid #2196f3',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
   {
@@ -84,8 +94,10 @@ const initialNodes: Node[] = [
     style: {
       width: 120,
       height: 60,
-      backgroundColor: '#e6f3ff',
-      border: '1px solid #1a73e8',
+      backgroundColor: '#e3f2fd',
+      border: '2px solid #2196f3',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
   {
@@ -98,6 +110,8 @@ const initialNodes: Node[] = [
       height: 60,
       backgroundColor: '#f3e5f5',
       border: '2px solid #9c27b0',
+      borderRadius: '8px',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
     },
   },
 ];
