@@ -12,6 +12,7 @@ import ReactFlow, {
   Edge,
   Node,
   BackgroundVariant,
+  Position,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 
@@ -21,6 +22,8 @@ const initialNodes: Node[] = [
     type: 'default',
     data: { label: 'AI Parent Agent' },
     position: { x: 50, y: 200 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 300,
       height: 100,
@@ -35,6 +38,8 @@ const initialNodes: Node[] = [
     type: 'default',
     data: { label: 'Query Processor' },
     position: { x: 400, y: 150 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 150,
       height: 60,
@@ -49,6 +54,8 @@ const initialNodes: Node[] = [
     type: 'default',
     data: { label: 'Task Breakdown' },
     position: { x: 400, y: 250 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 150,
       height: 60,
@@ -62,7 +69,9 @@ const initialNodes: Node[] = [
     id: 'llm-1',
     type: 'default',
     data: { label: 'GPT-4\n(Complex Reasoning)' },
-    position: { x: 600, y: 150 },
+    position: { x: 600, y: 115 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 120,
       height: 60,
@@ -76,7 +85,9 @@ const initialNodes: Node[] = [
     id: 'llm-2',
     type: 'default',
     data: { label: 'Claude\n(Analysis)' },
-    position: { x: 600, y: 250 },
+    position: { x: 600, y: 210 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 120,
       height: 60,
@@ -90,7 +101,9 @@ const initialNodes: Node[] = [
     id: 'llm-3',
     type: 'default',
     data: { label: 'PaLM\n(Generation)' },
-    position: { x: 600, y: 350 },
+    position: { x: 600, y: 310 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 120,
       height: 60,
@@ -104,7 +117,9 @@ const initialNodes: Node[] = [
     id: 'response-controller',
     type: 'default',
     data: { label: 'Response Controller' },
-    position: { x: 800, y: 250 },
+    position: { x: 800, y: 210 },
+    sourcePosition: Position.Right,
+    targetPosition: Position.Left,
     style: {
       width: 200,
       height: 60,
