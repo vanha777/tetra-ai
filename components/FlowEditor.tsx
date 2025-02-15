@@ -157,7 +157,7 @@ export default function FlowEditor() {
       >
         <Controls />
         <MiniMap />
-        <Background variant={BackgroundVariant.Dots} gap={12} size={1} />
+        <Background color='#000000' variant={BackgroundVariant.Dots} gap={12} size={1} className='bg-white' />
       </ReactFlow>
     </div>
   );
