@@ -21,7 +21,7 @@ const initialNodes: Node[] = [
     id: 'parent-agent',
     type: 'default',
     data: { label: 'AI Parent Agent' },
-    position: { x: 50, y: 200 },
+    position: { x: 50, y: 180 },
     sourcePosition: Position.Right,
     targetPosition: Position.Left,
     style: {
