@@ -138,7 +138,10 @@ export default function FlowEditor() {
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
 
   const onConnect = useCallback(
-    (params: Connection | Edge) => setEdges((eds) => addEdge(params, eds)),
+    (params: Connection | Edge) => {
+      console.log("connected", params);
+      setEdges((eds) => addEdge(params, eds));
+    },
     [setEdges],
   );
 
